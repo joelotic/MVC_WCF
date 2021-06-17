@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWCFWebService", "FirstWCFWebService\FirstWCFWebService.csproj", "{B125E95D-4B89-4B4D-92C5-BD621F8B0690}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client_WebMVC", "Client_WebMVC\Client_WebMVC.csproj", "{714875CB-D85D-4EE9-BDB9-4E8A8B40DF73}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B125E95D-4B89-4B4D-92C5-BD621F8B0690} = {B125E95D-4B89-4B4D-92C5-BD621F8B0690}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

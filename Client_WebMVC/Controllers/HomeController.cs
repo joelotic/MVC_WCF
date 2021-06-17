@@ -1,15 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿
+
 using System.Web.Mvc;
+ 
+
 
 namespace Client_WebMVC.Controllers
 {
     public class HomeController : Controller
     {
+        FirstWebServiceReference client = 
+
+             //client = new FirstWebServiceReference();
         public ActionResult Index()
         {
+            client.
             return View();
         }
 
