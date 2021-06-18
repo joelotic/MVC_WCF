@@ -1,19 +1,19 @@
 ﻿
 
 using System.Web.Mvc;
- 
+using Client_WebMVC.ServiceReference1_3;
 
 
 namespace Client_WebMVC.Controllers
 {
     public class HomeController : Controller
     {
-        FirstWebServiceReference client = 
 
-             //client = new FirstWebServiceReference();
+        FirstWebServiceClient sc = new FirstWebServiceClient();
+        
         public ActionResult Index()
         {
-            client.
+            ViewBag.X = sc.Message(); 
             return View();
         }
 
